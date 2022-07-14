@@ -1,0 +1,4 @@
+administer ln_widget configuration:
+  title: 'Administer ln_widget configuration'
+  description: 'Optional description.'
+  restrict access: true

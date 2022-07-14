@@ -1,0 +1,15 @@
+ln_widget.example:
+  path: '/ln-widget/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\ln_widget\Controller\LnWidgetController::build'
+  requirements:
+    _permission: 'access content'
+
+ln_widget.settings_form:
+  path: '/admin/config/system/ln-widget'
+  defaults:
+    _title: 'ln widget settings'
+    _form: 'Drupal\ln_widget\Form\SettingsForm'
+  requirements:
+    _permission: 'administer ln_widget configuration'

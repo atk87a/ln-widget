@@ -1,0 +1,8 @@
+# Schema for the configuration files of the ln widget module.
+ln_widget.settings:
+  type: config_object
+  label: 'ln widget settings'
+  mapping:
+    example:
+      type: string
+      label: 'Example'

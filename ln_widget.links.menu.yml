@@ -1,0 +1,6 @@
+ln_widget.settings_form:
+  title: 'ln widget'
+  description: 'Configure ln widget.'
+  parent: system.admin_config_system
+  route_name: ln_widget.settings_form
+  weight: 10
